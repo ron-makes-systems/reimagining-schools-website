@@ -11,6 +11,13 @@ If you're seeing this, you've probably already done this step. Congrats!
 npx sv create my-app
 ```
 
+To recreate this project with the same configuration:
+
+```sh
+# recreate this project
+npx sv@0.12.5 create --template minimal --types ts --add prettier eslint tailwindcss="plugins:typography,forms" mcp="ide:claude-code+setup:remote" mdsvex --install npm ./
+```
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
