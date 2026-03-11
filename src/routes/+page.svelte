@@ -204,7 +204,6 @@
 			<br class="hidden md:block" />
 			youth & imaginative minds — from all continents.
 		</p>
-		<p class="hero-whisper font-hand">We are alive. We are growing. We are many.</p>
 	</div>
 
 	<!-- Scroll indicator -->
@@ -696,13 +695,6 @@
 		max-width: 600px;
 		margin-inline: auto;
 		line-height: 1.6;
-	}
-
-	.hero-whisper {
-		color: var(--color-coral);
-		font-size: 1.6rem;
-		margin-top: 2rem;
-		animation: pulse-soft 4s ease-in-out infinite;
 	}
 
 	.scroll-indicator {
